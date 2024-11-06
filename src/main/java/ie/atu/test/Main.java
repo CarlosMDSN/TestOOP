@@ -8,6 +8,12 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+
+      ArrayList<String>CustomerObjects = new ArrayList<>(Arrays.asList("Computer","Charger","Mouse"));
+
+
+
       Scanner scanner = new Scanner(System.in);
 
       System.out.println("Add Customer");
@@ -58,4 +64,5 @@ public class Main {
 
         System.out.println("\nExit.");
     }
+
 }

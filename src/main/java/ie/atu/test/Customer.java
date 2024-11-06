@@ -1,5 +1,10 @@
 package ie.atu.test;
 
+import org.w3c.dom.ls.LSOutput;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Customer {
     private String customerId;
     private String Name;
@@ -50,4 +55,5 @@ public class Customer {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+
 }
